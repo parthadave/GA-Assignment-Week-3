@@ -1,0 +1,357 @@
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+
+body {
+	background-color: #f6f6f6;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	position: relative;
+	background-color: #033048 ;
+
+}
+
+
+section {
+	background-color: grey;
+	
+}
+
+
+
+nav {
+	float: right;
+	
+}
+
+.logo {
+	font-family: 'Montserrat';
+	color: white;
+	text-align: left;
+	margin-left: 80px;
+	padding-top: 25px;
+	position: relative;
+	vertical-align: bottom;
+	font-size: 40px;
+	display: inline-block;
+}
+
+
+h1 {
+	font-family: 'Montserrat';
+	color: white;
+	text-align: left;
+	margin-left: 80px;
+	padding-top: 0px;
+	position: relative;
+	vertical-align: bottom;
+	font-size: 40px;
+	display: inline-block;
+}
+
+
+
+
+.blogitems {
+	width: 700px;
+}
+
+
+h2 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 27px;
+	margin-left: 10%;
+	padding-top: 50px;
+	float: left;
+}
+
+.blogimage {
+
+	width: 90%;
+	padding-left: 70px;
+}
+
+
+h3 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	padding-top: 20px;
+	margin-left: 10%;
+	
+	float: left;
+
+
+}
+
+h4 {
+
+	float: right;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+.seperator {
+height: 1px;
+background-color: black;
+border: 1px  black;
+
+float: right;
+width: 80%;
+padding-left: 70px;
+}
+
+
+
+#menu {
+
+ position: relative;
+ padding-top: 25px;
+ padding-right: 50px;
+
+
+}
+
+#menuitem {
+	position: relative;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: #f9e42e;
+
+}
+
+
+
+li {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+
+}
+
+
+.categories {
+
+	font-size: 25px;
+	font-weight: 800;
+	color: #033048;
+	padding-bottom: 10px;
+}
+
+.categories2 {
+
+	font-size: 25px;
+	font-weight: 800;
+	color: #033048;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+
+.learnmore {
+
+	padding-top: 15px;
+	font-weight: 700;
+	color: #033048;
+}
+
+
+ul {
+
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 60px;
+	padding-top: 80px;
+
+
+}
+
+main {
+	background-color: #f6f6f6;
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 60%;
+	padding-left: 20px;
+	max-height: 2000px;
+}
+
+aside {
+	background-color: #f6f6f6;
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 30%;
+	max-height: 2000px;
+
+
+}
+
+
+
+
+.ads {
+
+	
+	float: right;
+	padding-right: 90px;
+	padding-top: 20px;
+}
+
+
+
+button {
+	color: white;
+	background-color: transparent;
+}
+
+
+
+p {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #053049;
+	margin-left:auto;
+  	margin-right:auto;
+  	text-align:center;
+  	width: 200px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+}
+
+.title {
+	color: black;
+	margin-left: 70px;
+	padding-top: 60px;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 100px;
+}
+
+.full {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+	background-size: cover;
+	font-size: 50px;
+	font-weight: thin;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	text-align: center;
+	background-image: url(testimonial-bg.jpg);
+
+}
+
+.signup {
+	background-color: #f9e42e;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: auto;
+	display: inline-block;
+}
+
+.cta {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #053049;
+	margin-left:auto;
+  	margin-right:auto;
+  	text-align:center;
+  	width: 200px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+	background-color: #f9e32d;
+	margin: auto;
+}
+
+/*
+.footer {
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #fbe62e;
+	
+}
+*/
+
+footer {
+	background-color: #121111;
+	
+
+
+}
+
+
+.text1 {
+	font-size: 60px;
+	color: #fbe62e;
+	font-family: 'Montserrat';
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+
+
+/* Struggling to get the social media icons in the centre. 
+I know the padding-left is wrong becuase this will be different 
+on different screens. But display inline blcok brings things
+next to each other but trying to figure out how to center this. */
+
+.twitter {
+	display: inline-block;
+	
+
+}
+.facebook {
+
+	display: inline-block;
+	
+}
+
+.terms { 
+	color: white;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	position: relative;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
